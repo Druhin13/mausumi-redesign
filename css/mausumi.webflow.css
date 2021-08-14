@@ -1,6 +1,6 @@
 .body {
   background-color: #e6e1db;
-  font-family: 'Archia webfont', sans-serif;
+  font-family: Prociono, sans-serif;
   color: #131313;
   font-size: 1vw;
   line-height: 1;
@@ -168,7 +168,7 @@
 
 .menu-el {
   margin-right: 2.6vw;
-  font-family: Helvetica, sans-serif;
+  font-family: Raleway, sans-serif;
   color: #e6e1db;
   font-size: 0.85vw;
   text-transform: uppercase;
@@ -197,11 +197,10 @@
 .heading {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: 'Archia webfont', sans-serif;
-  font-size: 2.76vw;
-  line-height: 1.025;
+  font-size: 2.9vw;
+  line-height: 1.1;
   font-weight: 400;
-  letter-spacing: -0.1596vw;
+  letter-spacing: -0.15vw;
 }
 
 .top-space {
@@ -264,7 +263,7 @@
 }
 
 .video-box {
-  width: 33vw;
+  width: 32vw;
   height: 27vh;
   margin-top: 7vh;
 }
@@ -277,17 +276,113 @@
   background-color: #e6e1db;
 }
 
-@font-face {
-  font-family: 'Helvetica';
-  src: url('../fonts/Helvetica.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+.transition {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 2000;
+  display: none;
+  width: 100%;
+  height: 100vh;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
+  cursor: wait;
 }
-@font-face {
-  font-family: 'Archia webfont';
-  src: url('../fonts/archia-regular-webfont.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
+
+.transition-trigger {
+  z-index: 20;
+  display: none;
+  padding: 0px;
 }
+
+.transition-content {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.transition-bg {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.transition-color {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #131313;
+}
+
+.transition-color-border {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 10px;
+  margin-bottom: -8px;
+  background-color: #131313;
+}
+
+.transition-lottie {
+  position: relative;
+  width: 100%;
+  margin-bottom: -5px;
+}
+
+.transition-logo-img {
+  position: relative;
+  z-index: 2;
+  width: 7em;
+}
+
+.text-span-2 {
+  font-size: 2.9vw;
+}
+
