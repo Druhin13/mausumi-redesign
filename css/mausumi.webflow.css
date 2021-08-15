@@ -167,7 +167,7 @@
 }
 
 .menu-el {
-  opacity: 0.6;
+  opacity: 1;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
   font-family: Raleway, sans-serif;
@@ -708,7 +708,7 @@
   }
 
   .div-block-5 {
-    width: 70vw;
+    width: 73vw;
   }
 
   .poem-title {
@@ -721,7 +721,7 @@
   }
 
   .poem-desc {
-    font-size: 3.25vw;
+    font-size: 3.4vw;
     letter-spacing: -0.13vw;
   }
 
