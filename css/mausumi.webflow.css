@@ -167,10 +167,17 @@
 }
 
 .menu-el {
+  opacity: 0.6;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
   font-family: Raleway, sans-serif;
   color: #e6e1db;
   font-size: 0.85vw;
   text-transform: uppercase;
+}
+
+.menu-el:hover {
+  opacity: 1;
 }
 
 .menu-el.language {
@@ -181,12 +188,28 @@
   display: block;
 }
 
+.menu-el.about {
+  opacity: 0.6;
+}
+
+.menu-el.about:hover {
+  opacity: 1;
+}
+
 .menu-el.library {
   opacity: 0.6;
 }
 
+.menu-el.library:hover {
+  opacity: 1;
+}
+
 .menu-el.contact {
   opacity: 0.6;
+}
+
+.menu-el.contact:hover {
+  opacity: 1;
 }
 
 .menu-el.popular {
@@ -201,6 +224,10 @@
   margin-right: 0vw;
   color: #131313;
   font-weight: 500;
+}
+
+.menu-el.english {
+  opacity: 1;
 }
 
 .bengali {
