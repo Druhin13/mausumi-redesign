@@ -167,7 +167,6 @@
 }
 
 .menu-el {
-  margin-right: 2.6vw;
   font-family: Raleway, sans-serif;
   color: #e6e1db;
   font-size: 0.85vw;
@@ -179,7 +178,7 @@
 }
 
 .menu-el.language.bengali {
-  display: none;
+  display: block;
 }
 
 .menu-el.library {
@@ -484,9 +483,91 @@
   padding-bottom: 1.85vh;
 }
 
+.index2 {
+  height: 0.5vh;
+}
+
+.menu-link {
+  margin-right: 2.6vw;
+  text-decoration: none;
+}
+
+.menu-link-language {
+  margin-right: 0vw;
+  opacity: 0.6;
+}
+
+.menu-link-language.bengali {
+  text-decoration: none;
+}
+
+.top-space2 {
+  height: 3.5vh;
+}
+
 @media screen and (max-width: 991px) {
+  .left-block {
+    display: none;
+  }
+
+  .menu-bar {
+    width: 60vw;
+    margin-top: 5vh;
+    margin-left: 30vw;
+  }
+
+  .right-block {
+    width: 100vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+
+  .menu-left-elements {
+    padding-left: 4vw;
+  }
+
+  .menu-right-elements {
+    padding-right: 4vw;
+  }
+
+  .menu-el {
+    margin-right: 0vw;
+    font-size: 1.35vw;
+  }
+
+  .heading {
+    font-size: 5.6vw;
+  }
+
+  .line {
+    margin-top: 8vh;
+  }
+
+  .div-block-2 {
+    margin-top: 7vh;
+    margin-right: 4vw;
+  }
+
+  .star {
+    width: 3.5vw;
+  }
+
+  .video-box {
+    width: 50vw;
+    height: 25vh;
+    margin-top: 10vh;
+  }
+
   .transition-logo-img {
     width: 15em;
+  }
+
+  .sec2 {
+    width: 60vw;
+  }
+
+  .menu-link {
+    margin-right: 3.5vw;
   }
 }
 
