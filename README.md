@@ -2,7 +2,7 @@
 Mausumi - Web Redesign
 
 <br>
-<b>15th Aug</b>
+<b>13th Aug</b>
 
 - Design started
 
