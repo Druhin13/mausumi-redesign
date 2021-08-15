@@ -1,8 +1,18 @@
 # mausumi
-Mausumi - Web Re-Design
+Mausumi - Web Redesign
 
 <br>
-Design started - 12th Aug
+<b>15th Aug</b>
+
+- Design started
 
 <br>
-Coding started - 14th Aug
+<b>14th Aug</b>
+
+- Coding started
+
+<br>
+<b>15th Aug</b>
+
+- Mobile Responsive
+- 1st part of Library done
