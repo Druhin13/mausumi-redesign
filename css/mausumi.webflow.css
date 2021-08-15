@@ -613,8 +613,77 @@
 }
 
 @media screen and (max-width: 479px) {
+  .menu-bar {
+    width: 90vw;
+    margin-top: 3.75vh;
+    margin-left: 0vw;
+  }
+
+  .menu-left-elements {
+    padding-left: 6vw;
+  }
+
+  .menu-right-elements {
+    padding-right: 6vw;
+  }
+
+  .menu-el {
+    font-size: 2.75vw;
+  }
+
+  .heading {
+    font-size: 7vw;
+  }
+
+  .top-space {
+    height: 18vh;
+  }
+
+  .background-video {
+    border-radius: 20px;
+  }
+
+  .div-block-2 {
+    position: absolute;
+    margin-top: 5vh;
+  }
+
+  .star {
+    width: 5vw;
+  }
+
+  .video-box {
+    width: 90vw;
+    height: 30vh;
+  }
+
+  .color {
+    width: 90vw;
+    height: 30vh;
+  }
+
   .transition-logo-img {
     width: 25em;
+  }
+
+  .sec2 {
+    width: 90vw;
+  }
+
+  .div-block-5 {
+    width: 65vw;
+  }
+
+  .div-block-6 {
+    width: 5vw;
+  }
+
+  .menu-link {
+    margin-right: 7.5vw;
+  }
+
+  .top-space2 {
+    height: 10vh;
   }
 }
 
