@@ -539,8 +539,16 @@
     font-size: 5.6vw;
   }
 
+  .top-space {
+    height: 22vh;
+  }
+
   .line {
     margin-top: 8vh;
+  }
+
+  .line.library {
+    margin-top: 5vh;
   }
 
   .div-block-2 {
@@ -564,6 +572,39 @@
 
   .sec2 {
     width: 60vw;
+  }
+
+  .poem-2 {
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+  }
+
+  .div-block-5 {
+    width: 35vw;
+  }
+
+  .poem-title {
+    font-size: 2vw;
+    letter-spacing: -0.1vw;
+  }
+
+  .date {
+    font-size: 1.35vw;
+  }
+
+  .poem-desc {
+    font-size: 1.5vw;
+    line-height: 1.2;
+    letter-spacing: -0.06vw;
+  }
+
+  .div-block-6 {
+    width: 2.5vw;
+  }
+
+  .poem-1 {
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
   }
 
   .menu-link {
