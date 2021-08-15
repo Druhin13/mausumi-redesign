@@ -675,6 +675,11 @@
     width: 90vw;
   }
 
+  .poem-2 {
+    padding-top: 2.25vh;
+    padding-bottom: 2.25vh;
+  }
+
   .div-block-5 {
     width: 70vw;
   }
@@ -695,6 +700,11 @@
 
   .div-block-6 {
     width: 5vw;
+  }
+
+  .poem-1 {
+    padding-top: 1.25vh;
+    padding-bottom: 1.25vh;
   }
 
   .menu-link {
