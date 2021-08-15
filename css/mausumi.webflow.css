@@ -566,6 +566,11 @@
     margin-top: 10vh;
   }
 
+  .color {
+    width: 55vw;
+    height: 25vh;
+  }
+
   .transition-logo-img {
     width: 15em;
   }
