@@ -11,7 +11,7 @@ async function getData() {
     let d = "";
     let dd = "";
 
-    for (i = 1; i <= 2; i++) // data for the top 12 poems
+    for (i = 1; i <= 2; i++) // data for the top 2 poems
     {
         t = "title"+i;
 		d = "date"+i;
@@ -20,6 +20,16 @@ async function getData() {
         document.getElementById(d).innerHTML = data.poems[i-1].date;
         document.getElementById(dd).innerHTML = data.poems[i-1].desc;
     }
+
+    for (i = 3; i <= 6; i++) // data for the top 6 poems
+    {
+        t = "title"+i;
+		d = "date"+i;
+		dd = "desc"+i;
+        document.getElementById(t).innerHTML = data.poems[i-1].title;
+        document.getElementById(d).innerHTML = data.poems[i-1].date;
+    }
+
 
 	//	console.log(data);
 

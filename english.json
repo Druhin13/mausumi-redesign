@@ -2,14 +2,34 @@
     "poems":[
 
         {
-            "title": "BONDHU ROHO",
+            "title": "Bondhu Roho",
             "date": "11/03/20",
             "desc": "The poet expresses how the perfect melodies of her mind make her life filled with joy. Through the end of the poem, she describes her desire to be a friend to her mind, as it seeks to find the beauty of nature through its exploration."
         },
         {
-            "title": "FIRTE CHAOWA",
+            "title": "Firte Chaowa",
             "date": "11/03/20",
             "desc": "The poet continues to speak with her childhood mind. It calls to the poet, telling her to go back to that time. The mind of the poet, who is involved in various worldly responsibilities, is afraid lest there be any negligence in duty. So he remembers the days left behind by his childhood."
+        },
+        {
+            "title": "Mullayon",
+            "date": "11/03/20",
+            "desc": "Not available"
+        },
+        {
+            "title": "Sunte Pachho",
+            "date": "11/03/20",
+            "desc": "Not available"
+        },
+        {
+            "title": "Stobdho Somoy",
+            "date": "11/03/20",
+            "desc": "Not available"
+        },
+        {
+            "title": "Stobdho Somoy",
+            "date": "11/03/20",
+            "desc": "Not available"
         }
         
     ]
