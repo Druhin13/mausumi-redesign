@@ -534,6 +534,30 @@
   height: 3.5vh;
 }
 
+.tricks-stickers {
+  display: none;
+}
+
+.tricks-sticker {
+  width: 5vw;
+}
+
+.tricks-sticker.sofor {
+  width: 18.85vw;
+}
+
+.tricks-sticker.ichhe {
+  width: 10.4vw;
+}
+
+.tricks-sticker.bhalobasa {
+  width: 13vw;
+}
+
+.tricks-sticker.prithibi {
+  width: 11.5vw;
+}
+
 @media screen and (max-width: 991px) {
   .left-block {
     display: none;

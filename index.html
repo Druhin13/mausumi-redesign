@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Aug 16 2021 12:56:16 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Aug 16 2021 17:58:20 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="611740017e15e322f6ed0ec6" data-wf-site="611740017e15e3d914ed0ec5" lang="en">
 <head>
   <meta charset="utf-8">
@@ -27,8 +27,32 @@ body .transition {display: block}
 .w-editor .transition {display: none;}
 .no-scroll-transition {overflow: hidden; position: relative;}
 </style>
+  <style>
+.tricks-stickers {
+	display: none !important;
+}
+.tricks-sticker {
+  position: absolute !important;
+  left: 0% !important;
+  top: 0%  !important;
+  z-index: 9999999 !important;
+  pointer-events: none; !important;
+  transform: scale(0.8, 0.8);
+  transition-property: transform;
+  transition-duration: 200ms;
+  transition-timing-function: ease;
+}
+.sticker-hide {
+	transform: scale(0, 0) !important;
+}
+.overflow {
+	overflow-x: hidden !important;
+  position: relative !important;
+}
+</style>
 </head>
-<body class="body">
+<body class="body overflow">
+  <div class="tricks-stickers"><img src="images/prithibi.svg" loading="eager" alt="" class="tricks-sticker prithibi"><img src="images/sofor.svg" loading="eager" alt="" class="tricks-sticker sofor"><img src="images/ichhe.svg" loading="eager" alt="" class="tricks-sticker ichhe"><img src="images/bhalobasa.svg" loading="eager" alt="" class="tricks-sticker bhalobasa"></div>
   <div class="transition">
     <div class="transition-trigger"></div>
     <div class="transition-content">
@@ -37,7 +61,7 @@ body .transition {display: block}
           <div class="transition-color-border"></div>
         </div>
         <div data-w-id="eda59364-aa77-57f9-882b-b8150b6e6bb4" data-animation-type="lottie" data-src="documents/black-wave.json" data-loop="0" data-direction="1" data-autoplay="0" data-is-ix2-target="1" data-renderer="svg" data-default-duration="0.7" data-duration="0" class="transition-lottie"></div>
-      </div><img src="images/light-logo.svg" loading="lazy" alt="" class="transition-logo-img">
+      </div><img src="images/light-logo.svg" loading="lazy" alt="Mausumi logo" class="transition-logo-img">
     </div>
   </div>
   <div class="section wf-section">
@@ -295,6 +319,28 @@ window.onpageshow = function(event) {if (event.persisted) {window.location.reloa
 setTimeout(() => {$(window).on("resize", function () {
 setTimeout(() => {$(".transition").css("display", "none");}, 50);});
 }, introDurationMS);
+</script>
+  <script>
+// © Code by T.RICKS, https://www.tricksdesign.com/
+// Copyright 2020, T.RICKS, All rights reserved.
+// You have the license to use this code in your projects but not to redistribute it to others
+var lastEq = $( ".tricks-stickers .tricks-sticker" ).length - 1;
+var stickerEq = -1;
+$( ".left-block" ).click(function(e) {
+	if (stickerEq == lastEq) {
+  	stickerEq = 0;
+  } else {
+  	stickerEq++;
+  };
+  var tricksSticker = $( ".tricks-stickers .tricks-sticker" ).eq(stickerEq).clone().appendTo( ".overflow" );
+  var marginLeft =  e.pageX - (tricksSticker.width() / 2);
+  var marginTop = e.pageY - (tricksSticker.height() / 2);
+  tricksSticker.css({'margin-left': marginLeft, 'margin-top': marginTop, 'transform': 'scale(1, 1)'});
+  // Wait before playing animation
+	setTimeout(() => {  
+		tricksSticker.addClass('sticker-hide');
+	}, 3000);
+});
 </script>
   <script src="app_eng.js"></script>
 </body>
