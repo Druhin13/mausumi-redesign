@@ -12,7 +12,7 @@ async function getData() {
     for (i = 1; i <= 2; i++) // data for the top 10 poems
     {
         t = "title"+i;
-        document.getElementById(t).innerHTML = data.poem[i].title;
+        document.getElementById(t).innerHTML = data.poems[i-1].title;
     }
 
 	//	console.log(data);
