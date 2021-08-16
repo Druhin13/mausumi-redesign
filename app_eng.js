@@ -12,18 +12,10 @@ async function getData() {
     for (i = 1; i <= 12; i++) // data for the top 10 poems
     {
         t = "title"+i;
-        document.getElementById(t).innerHTML = (data);
+        document.getElementById(t).innerHTML = (data.title[i]);
     }
 
-	document.getElementById("india-total").innerHTML = (data.statewise[0].confirmed);
-	//  console.log(data.statewise[0].confirmed);
-	document.getElementById("india-recovered").innerHTML = (data.statewise[0].recovered);
-	//	console.log(data.statewise[0].recovered);
-	document.getElementById("india-deaths").innerHTML = (data.statewise[0].deaths);
-	//	console.log(data.statewise[0].deaths);
-	//	console.log(data.statewise);
 	//	console.log(data);
-
 
 }
 
