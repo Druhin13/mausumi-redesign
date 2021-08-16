@@ -17,7 +17,8 @@ async function getData() {
 		d = "date"+i;
 		dd = "desc"+i;
         document.getElementById(t).innerHTML = data.poems[i-1].title;
-        document.getElementById(t).innerHTML = data.poems[i-1].date;
+        document.getElementById(d).innerHTML = data.poems[i-1].date;
+        document.getElementById(dd).innerHTML = data.poems[i-1].desc;
     }
 
 	//	console.log(data);
