@@ -7,7 +7,9 @@ async function getData() {
 	const data = await response.json();
 	// const data50 = await response50.json();
 
-    let t="";
+    let t = "";
+    let d = "";
+    let dd = "";
 
     for (i = 1; i <= 2; i++) // data for the top 12 poems
     {
