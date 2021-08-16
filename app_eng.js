@@ -21,7 +21,7 @@ async function getData() {
         document.getElementById(dd).innerHTML = data.poems[i-1].desc;
     }
 
-    for (i = 3; i <= 6; i++) // data for the top 6 poems
+    for (i = 3; i <= 6; i++) // data for the top poems (next 4)
     {
         t = "title"+i;
 		d = "date"+i;
