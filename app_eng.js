@@ -25,7 +25,6 @@ async function getData() {
     {
         t = "title"+i;
 		d = "date"+i;
-		dd = "desc"+i;
         document.getElementById(t).innerHTML = data.poems[i-1].title;
         document.getElementById(d).innerHTML = data.poems[i-1].date;
     }
