@@ -9,10 +9,13 @@ async function getData() {
 
     let t="";
 
-    for (i = 1; i <= 2; i++) // data for the top 10 poems
+    for (i = 1; i <= 2; i++) // data for the top 12 poems
     {
         t = "title"+i;
+		d = "date"+i;
+		dd = "desc"+i;
         document.getElementById(t).innerHTML = data.poems[i-1].title;
+        document.getElementById(t).innerHTML = data.poems[i-1].date;
     }
 
 	//	console.log(data);
