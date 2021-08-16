@@ -12,7 +12,7 @@ async function getData() {
     for (i = 1; i <= 12; i++) // data for the top 10 poems
     {
         t = "title"+i;
-        document.getElementById(t).innerHTML = data
+        document.getElementById(t).innerHTML = (data.)
     }
 
 	document.getElementById("india-total").innerHTML = (data.statewise[0].confirmed);
