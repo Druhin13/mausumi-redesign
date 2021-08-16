@@ -53,6 +53,10 @@
   cursor: crosshair;
 }
 
+.left-block.mobile {
+  display: none;
+}
+
 .logo-box {
   display: -webkit-box;
   display: -webkit-flex;
@@ -563,6 +567,22 @@
     display: none;
   }
 
+  .left-block.mobile {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .logo-txt {
+    width: 36%;
+    padding: 3vh 6.5vw;
+    border-radius: 200px;
+    box-shadow: 11px 11px 0 0 #1f1a14;
+  }
+
   .menu-bar {
     width: 60vw;
     margin-top: 5vh;
@@ -670,9 +690,32 @@
   .menu-link {
     margin-right: 3.5vw;
   }
+
+  .tricks-sticker.sofor {
+    width: 28vw;
+  }
+
+  .tricks-sticker.ichhe {
+    width: 16vw;
+  }
+
+  .tricks-sticker.bhalobasa {
+    width: 19vw;
+  }
+
+  .tricks-sticker.prithibi {
+    width: 18vw;
+  }
 }
 
 @media screen and (max-width: 479px) {
+  .logo-txt {
+    width: 65%;
+    padding: 2.5vh 12vw;
+    border-radius: 200px;
+    box-shadow: 7px 7px 0 0 #1f1a14;
+  }
+
   .menu-bar {
     width: 90vw;
     margin-top: 3.75vh;
@@ -770,6 +813,22 @@
 
   .top-space2 {
     height: 10vh;
+  }
+
+  .tricks-sticker.sofor {
+    width: 54vw;
+  }
+
+  .tricks-sticker.ichhe {
+    width: 36vw;
+  }
+
+  .tricks-sticker.bhalobasa {
+    width: 38vw;
+  }
+
+  .tricks-sticker.prithibi {
+    width: 37vw;
   }
 }
 
