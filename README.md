@@ -16,3 +16,9 @@ Mausumi - Web Redesign
 
 - Mobile Responsive
 - 1st part of Library done
+
+<br>
+<b>16th Aug</b>
+
+- Stickers
+- Content in json
