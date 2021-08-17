@@ -221,7 +221,24 @@
 }
 
 .menu-el.popular {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-right: 0vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   opacity: 1;
   color: #131313;
   font-weight: 600;
@@ -236,6 +253,72 @@
 
 .menu-el.english {
   opacity: 1;
+}
+
+.menu-el.help-msg2 {
+  position: absolute;
+  left: 35%;
+  top: auto;
+  right: 35%;
+  bottom: 7.5%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  margin-right: 0vw;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(230, 225, 219, 0.7);
+  opacity: 1;
+  color: #131313;
+  font-weight: 600;
+}
+
+.menu-el.help-msg {
+  position: absolute;
+  left: 40%;
+  top: 7.5%;
+  right: 40%;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+  margin-right: 0vw;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(230, 225, 219, 0.7);
+  opacity: 1;
+  color: #131313;
+  font-weight: 600;
 }
 
 .bengali {
@@ -580,10 +663,7 @@
   }
 
   .left-block.mobile {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     width: 100vw;
     height: 100vh;
   }
