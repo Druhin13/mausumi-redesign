@@ -45,7 +45,6 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border-right: 2px solid #131313;
   background-image: url('../images/lines.svg');
   background-position: 50% 50%;
   background-size: cover;
@@ -565,6 +564,16 @@
   width: 11.5vw;
 }
 
+.line-divider {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 150;
+  width: 2px;
+  height: 100vh;
+  background-color: #131313;
+}
+
 @media screen and (max-width: 991px) {
   .left-block {
     display: none;
@@ -708,6 +717,14 @@
 
   .tricks-sticker.prithibi {
     width: 18vw;
+  }
+
+  .awwwards {
+    display: none;
+  }
+
+  .line-divider {
+    display: none;
   }
 }
 
