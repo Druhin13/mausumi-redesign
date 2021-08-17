@@ -282,6 +282,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  border-radius: 5px;
   background-color: rgba(230, 225, 219, 0.7);
   opacity: 1;
   color: #131313;
@@ -315,6 +316,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  border-radius: 5px;
   background-color: rgba(230, 225, 219, 0.7);
   opacity: 1;
   color: #131313;
@@ -394,9 +396,22 @@
 }
 
 .video-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 32vw;
   height: 27vh;
   margin-top: 7vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 .color {
@@ -557,27 +572,26 @@
 }
 
 .poem-title {
-  font-family: Raleway, sans-serif;
-  font-size: 1.3vw;
-  font-weight: 600;
-  letter-spacing: -0.0675vw;
+  font-family: Kalpurush, sans-serif;
+  font-size: 1.75vw;
+  letter-spacing: -0.0875vw;
   text-transform: uppercase;
 }
 
 .date {
-  margin-top: 1vh;
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 0.95vw;
+  margin-top: 0vh;
+  font-family: Lato, sans-serif;
+  font-size: 1vw;
   text-transform: uppercase;
 }
 
 .poem-desc {
-  margin-top: 1.85vh;
-  font-family: Raleway, sans-serif;
-  font-size: 1.05vw;
-  line-height: 1.1;
-  font-weight: 600;
-  letter-spacing: -0.042vw;
+  margin-top: 2.5vh;
+  font-family: Kalpurush, sans-serif;
+  font-size: 1.35vw;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: -0.065vw;
 }
 
 .line2 {
@@ -587,7 +601,19 @@
 }
 
 .div-block-6 {
-  width: 2vw;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 6vw;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
 }
 
 .line3 {
@@ -756,17 +782,17 @@
   }
 
   .poem-title {
-    font-size: 2vw;
+    font-size: 3vw;
     letter-spacing: -0.1vw;
   }
 
   .date {
-    font-size: 1.35vw;
+    font-size: 1.75vw;
   }
 
   .poem-desc {
-    font-size: 1.5vw;
-    line-height: 1.2;
+    font-size: 2vw;
+    line-height: 1.25;
     letter-spacing: -0.06vw;
   }
 
@@ -881,20 +907,21 @@
   }
 
   .div-block-5 {
-    width: 73vw;
+    width: 70vw;
   }
 
   .poem-title {
-    font-size: 3.75vw;
+    font-size: 5.5vw;
     letter-spacing: -0.1875vw;
   }
 
   .date {
-    font-size: 2.75vw;
+    font-size: 3.5vw;
   }
 
   .poem-desc {
-    font-size: 3.4vw;
+    font-size: 4vw;
+    line-height: 1.3;
     letter-spacing: -0.13vw;
   }
 
@@ -936,3 +963,10 @@
   }
 }
 
+@font-face {
+  font-family: 'Kalpurush';
+  src: url('../fonts/kalpurush.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
