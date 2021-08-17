@@ -100,7 +100,7 @@
 
 .menu-bar {
   position: fixed;
-  z-index: 10;
+  z-index: 200;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -128,10 +128,13 @@
 }
 
 .right-block {
+  position: relative;
+  z-index: 150;
   width: 50vw;
   padding-right: 3vw;
   padding-bottom: 10vh;
   padding-left: 3vw;
+  background-color: #e6e1db;
 }
 
 .menu-left-elements {
