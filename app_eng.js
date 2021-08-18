@@ -1,4 +1,4 @@
-const api_url = 'poem.json';
+const api_url = 'featured_poems.json';
 
 async function getData() {
 	const response = await fetch(api_url);
