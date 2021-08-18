@@ -178,7 +178,7 @@
   opacity: 1;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   color: #e6e1db;
   font-size: 0.85vw;
   text-transform: uppercase;
@@ -240,9 +240,9 @@
   -ms-flex-align: center;
   align-items: center;
   opacity: 1;
-  font-family: Proximanova, sans-serif;
+  font-family: Raleway, sans-serif;
   color: #131313;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .menu-el.date {
@@ -573,28 +573,27 @@
 }
 
 .poem-title {
-  font-family: Proximanova, sans-serif;
-  font-size: 1.35vw;
-  font-weight: 400;
-  letter-spacing: -0.0405vw;
+  font-family: Kalpurush, Arial, sans-serif;
+  font-size: 1.55vw;
+  letter-spacing: -0.0775vw;
   text-transform: uppercase;
 }
 
 .date {
   margin-top: 0vh;
-  font-family: Proximanova, sans-serif;
+  font-family: Kalpurush, Arial, sans-serif;
   font-size: 1vw;
   text-align: right;
   text-transform: uppercase;
 }
 
 .poem-desc {
-  margin-top: 2vh;
-  font-family: Proximanova, sans-serif;
-  font-size: 1.04vw;
-  line-height: 1.15;
+  margin-top: 2.5vh;
+  font-family: Kalpurush, Arial, sans-serif;
+  font-size: 1.25vw;
+  line-height: 1.25;
   font-weight: 400;
-  letter-spacing: -0.0312vw;
+  letter-spacing: -0.0625vw;
 }
 
 .line2 {
@@ -786,7 +785,7 @@
 
   .poem-title {
     font-size: 3vw;
-    letter-spacing: -0.1vw;
+    letter-spacing: -0.15vw;
   }
 
   .date {
@@ -794,9 +793,10 @@
   }
 
   .poem-desc {
-    font-size: 1.8vw;
-    line-height: 1.1;
-    letter-spacing: -0.054vw;
+    margin-top: 2vh;
+    font-size: 2vw;
+    line-height: 1.25;
+    letter-spacing: -0.1vw;
   }
 
   .div-block-6 {
@@ -915,7 +915,7 @@
 
   .poem-title {
     font-size: 5.5vw;
-    letter-spacing: -0.1875vw;
+    letter-spacing: -0.275vw;
   }
 
   .date {
@@ -923,9 +923,9 @@
   }
 
   .poem-desc {
-    font-size: 3.75vw;
-    line-height: 1.1;
-    letter-spacing: -0.12vw;
+    font-size: 4vw;
+    line-height: 1.25;
+    letter-spacing: -0.2vw;
   }
 
   .div-block-6 {
@@ -967,8 +967,8 @@
 }
 
 @font-face {
-  font-family: 'Proximanova';
-  src: url('../fonts/ProximaNova-Regular.otf') format('opentype');
+  font-family: 'Kalpurush';
+  src: url('../fonts/Kalpurush.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
