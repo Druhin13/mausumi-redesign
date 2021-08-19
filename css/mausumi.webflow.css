@@ -349,7 +349,7 @@ body {
   overflow: hidden;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 3px;
+  padding-top: 0px;
   padding-bottom: 3px;
   font-size: 2.9vw;
   line-height: 1.1;
@@ -1015,8 +1015,9 @@ body {
   }
 
   .heading {
-    padding-top: 4px;
-    padding-bottom: 4px;
+    margin-top: -1px;
+    padding-top: 0px;
+    padding-bottom: 3px;
     font-size: 5.6vw;
   }
 
@@ -1205,6 +1206,7 @@ body {
 
   .heading {
     display: none;
+    margin-top: -2px;
     font-size: 7vw;
   }
 
