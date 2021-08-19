@@ -780,6 +780,12 @@ body {
   background-color: #131313;
 }
 
+.line-divider.vertical {
+  height: 75vh;
+  margin-top: 17.5vh;
+  margin-bottom: 7.5vh;
+}
+
 .title-marquee {
   position: absolute;
   left: 0%;
