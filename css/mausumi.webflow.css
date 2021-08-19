@@ -948,6 +948,16 @@ body {
 }
 
 @media screen and (max-width: 991px) {
+  .main {
+    width: 100vw;
+    margin-left: 0vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
   .left-block {
     display: none;
   }
@@ -1103,6 +1113,14 @@ body {
     padding-right: 5vw;
     padding-left: 5vw;
   }
+
+  .fixed-section {
+    display: none;
+  }
+
+  .img-area {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1114,9 +1132,14 @@ body {
   }
 
   .menu-bar {
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
     width: 90vw;
     margin-top: 3.75vh;
-    margin-left: 0vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
   }
 
   .menu-left-elements {
@@ -1139,6 +1162,10 @@ body {
 
   .top-space {
     height: 18vh;
+  }
+
+  .line {
+    margin-top: 7vh;
   }
 
   .line.library {
@@ -1170,6 +1197,10 @@ body {
 
   .transition-logo-img {
     width: 25em;
+  }
+
+  .sec1 {
+    padding-bottom: 5vh;
   }
 
   .sec2 {
