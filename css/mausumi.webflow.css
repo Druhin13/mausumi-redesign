@@ -346,12 +346,19 @@ body {
 }
 
 .heading {
+  overflow: hidden;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
   font-size: 2.9vw;
   line-height: 1.1;
   font-weight: 400;
   letter-spacing: -0.15vw;
+}
+
+.heading.mobile {
+  display: none;
 }
 
 .top-space {
@@ -616,7 +623,7 @@ body {
 }
 
 .poem-2:hover {
-  padding-right: 0vw;
+  padding-right: 0.75vw;
   padding-left: 0.75vw;
 }
 
@@ -702,7 +709,7 @@ body {
 }
 
 .poem-1:hover {
-  padding-right: 0vw;
+  padding-right: 0.75vw;
   padding-left: 0.75vw;
 }
 
@@ -1008,6 +1015,8 @@ body {
   }
 
   .heading {
+    padding-top: 4px;
+    padding-bottom: 4px;
     font-size: 5.6vw;
   }
 
@@ -1195,7 +1204,16 @@ body {
   }
 
   .heading {
+    display: none;
     font-size: 7vw;
+  }
+
+  .heading.mobile {
+    display: block;
+  }
+
+  .heading.featured {
+    display: block;
   }
 
   .top-space {
