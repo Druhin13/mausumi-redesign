@@ -976,9 +976,14 @@ body {
   }
 
   .menu-bar {
+    left: auto;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
     width: 60vw;
     margin-top: 5vh;
-    margin-left: 30vw;
+    margin-right: 5vw;
+    margin-left: 0vw;
   }
 
   .right-block {
@@ -1018,6 +1023,10 @@ body {
     margin-top: 5vh;
   }
 
+  .line.library.tablet {
+    margin-top: 7.5vh;
+  }
+
   .div-block-2 {
     margin-top: 7vh;
     margin-right: 4vw;
@@ -1044,6 +1053,11 @@ body {
 
   .sec2 {
     width: 60vw;
+    padding-bottom: 4.65vh;
+  }
+
+  .sec2.tablet {
+    padding-bottom: 0vh;
   }
 
   .poem-2 {
@@ -1084,6 +1098,10 @@ body {
     margin-right: 3.5vw;
   }
 
+  .top-space2 {
+    display: none;
+  }
+
   .tricks-sticker.sofor {
     width: 28vw;
   }
@@ -1120,6 +1138,17 @@ body {
 
   .img-area {
     display: none;
+  }
+
+  .featured-section {
+    width: 100vw;
+    height: auto;
+    padding-right: 5vw;
+    padding-left: 5vw;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 }
 
