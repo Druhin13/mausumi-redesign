@@ -1238,7 +1238,12 @@ body {
   }
 
   .sec1 {
+    padding-top: 15vh;
     padding-bottom: 5vh;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .sec2 {
