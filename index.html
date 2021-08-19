@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Thu Aug 19 2021 21:42:42 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Aug 19 2021 21:52:24 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="611d97540befc352cfd3da60" data-wf-site="611d8e1a258be484f14cddb8" lang="en">
 <head>
   <meta charset="utf-8">
@@ -28,6 +28,7 @@ body .transition {display: block}
 .w-editor .transition {display: none;}
 .no-scroll-transition {overflow: hidden; position: relative;}
 </style>
+  <meta name="theme-color" content="#131313">
   <style>
 .tricks-stickers {
 	display: none !important;
@@ -50,6 +51,14 @@ body .transition {display: block}
 	overflow-x: hidden !important;
   position: relative !important;
 }
+</style>
+  <style>
+.tricksword {display: inline-block;} 
+.tricksword {white-space: nowrap;}
+.fade-up .tricksword {opacity: 0;}
+.fade-up2 .tricksword {opacity: 0;}
+.fade-up3 .tricksword {opacity: 0;}
+.fade-up4 .tricksword {opacity: 0;}
 </style>
 </head>
 <body data-w-id="611740017e15e3badded0ec7" class="body overflow">
@@ -220,6 +229,9 @@ noise();</script>
 body {
   /*overflow-x: hidden; /* Hide horizontal scrollbar */
 }
+html, body {
+  -webkit-font-smoothing: antialiased;
+	}
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -304,12 +316,12 @@ pointer-events: none;
     <main class="right-block">
       <section class="sec1">
         <div>
-          <h1 class="heading fade-up tricks">Mausumi is a singer, songwriter who</h1>
+          <h1 id="scroll-in1" class="heading fade-up tricks">Mausumi is a singer, songwriter who</h1>
           <h1 class="heading fade-up tricks">has fallen in love with poetry. With her</h1>
           <h1 class="heading fade-up tricks">writing, she hopes to take you on an</h1>
           <h1 class="heading fade-up tricks">emotional journey as she shares her</h1>
           <h1 class="heading fade-up tricks">experiences, perceptions, and love.</h1>
-          <h1 class="heading mobile fade-up2 tricks">Mausumi is a singer,</h1>
+          <h1 id="scroll-in2" class="heading mobile fade-up2 tricks">Mausumi is a singer,</h1>
           <h1 class="heading mobile fade-up2 tricks">songwriter who has fallen in</h1>
           <h1 class="heading mobile fade-up2 tricks">love with poetry. With her</h1>
           <h1 class="heading mobile fade-up2 tricks">writing, she hopes to take you</h1>
@@ -340,7 +352,7 @@ pointer-events: none;
       <section class="sec2">
         <div class="top-space2"></div>
         <div class="heading-container">
-          <h1 class="heading featured">Featured writings</h1>
+          <h1 id="scroll-in3" class="heading featured fade-up3 tricks">Featured writings</h1>
           <div class="menu-el popular">popular</div>
         </div>
         <div class="poem-holder">
@@ -562,6 +574,12 @@ $( ".left-block" ).click(function(e) {
 	}, 1000);
 });
 </script>
+  <!--  anime.js and jquery-inview  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+  <!--  text animation  -->
+  <script src="https://druh-in.github.io/textanim.js"></script>
+  <!--  content from json  -->
   <script src="https://mausumi.in/app_eng.js"></script>
 </body>
 </html>
