@@ -610,6 +610,13 @@ body {
 .poem-2 {
   padding-top: 2.75vh;
   padding-bottom: 2.75vh;
+  -webkit-transition: padding 300ms ease;
+  transition: padding 300ms ease;
+}
+
+.poem-2:hover {
+  padding-right: 0vw;
+  padding-left: 0.75vw;
 }
 
 .poem-div {
@@ -669,7 +676,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 6vw;
+  width: 4.5vw;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
@@ -689,6 +696,13 @@ body {
 .poem-1 {
   padding-top: 1.85vh;
   padding-bottom: 1.85vh;
+  -webkit-transition: padding 300ms ease;
+  transition: padding 300ms ease;
+}
+
+.poem-1:hover {
+  padding-right: 0vw;
+  padding-left: 0.75vw;
 }
 
 .index2 {
@@ -880,6 +894,8 @@ body {
   z-index: 20;
   height: 100%;
   border-radius: 30px;
+  -webkit-transition: width 300ms ease;
+  transition: width 300ms ease;
   -o-object-fit: cover;
   object-fit: cover;
 }
