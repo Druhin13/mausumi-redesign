@@ -1053,7 +1053,7 @@ body {
 
   .sec2 {
     width: 60vw;
-    padding-bottom: 4.65vh;
+    padding-bottom: 2vh;
   }
 
   .sec2.tablet {
@@ -1087,6 +1087,10 @@ body {
 
   .div-block-6 {
     width: 2.5vw;
+  }
+
+  .line3 {
+    margin-top: 2vh;
   }
 
   .poem-1 {
@@ -1143,12 +1147,17 @@ body {
   .featured-section {
     width: 100vw;
     height: auto;
+    margin-top: 5vh;
     padding-right: 5vw;
     padding-left: 5vw;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
+  }
+
+  .featured-section.tablet {
+    margin-top: 0vh;
   }
 }
 
@@ -1234,6 +1243,7 @@ body {
 
   .sec2 {
     width: 90vw;
+    padding-bottom: 2.5vh;
   }
 
   .poem-2 {
@@ -1265,7 +1275,7 @@ body {
   }
 
   .line3 {
-    margin-top: 4.5vh;
+    margin-top: 2.5vh;
   }
 
   .poem-1 {
@@ -1299,6 +1309,10 @@ body {
 
   .awwwards {
     display: none;
+  }
+
+  .featured-section {
+    margin-top: 7.5vh;
   }
 }
 
