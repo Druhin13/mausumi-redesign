@@ -954,6 +954,14 @@ body {
   justify-content: flex-end;
 }
 
+.about-index {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+}
+
 @media screen and (max-width: 991px) {
   .main {
     width: 100vw;
