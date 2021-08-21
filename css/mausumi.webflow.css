@@ -125,7 +125,7 @@ body {
   width: 38vw;
   height: 6vh;
   margin-top: 3.7vh;
-  margin-right: 2.5vw;
+  margin-right: 3vw;
   margin-left: 0vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -146,7 +146,7 @@ body {
 
 .right-block {
   z-index: 150;
-  width: 50vw;
+  width: 49.9vw;
   padding-right: 3vw;
   padding-bottom: 0vh;
   padding-left: 3vw;
@@ -347,7 +347,7 @@ body {
 
 .heading {
   overflow: hidden;
-  margin-top: 0px;
+  margin-top: -2px;
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 3px;
@@ -366,6 +366,7 @@ body {
 }
 
 .line {
+  width: 100%;
   height: 2px;
   margin-top: 7.4vh;
   background-color: #131313;
@@ -385,10 +386,11 @@ body {
 }
 
 .background-video {
-  z-index: 1;
+  position: absolute;
+  z-index: 2;
   width: 100%;
   height: 100%;
-  border-radius: 50px;
+  border-radius: 0px;
   -webkit-filter: grayscale(90%);
   filter: grayscale(90%);
 }
@@ -421,10 +423,12 @@ body {
 }
 
 .video-box {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   width: 32vw;
   height: 27vh;
   margin-top: 7vh;
@@ -437,6 +441,7 @@ body {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  border-radius: 50px;
 }
 
 .color {
@@ -573,15 +578,23 @@ body {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 .sec2 {
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   padding-bottom: 7.5vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .sec2.sticky-container {
@@ -623,8 +636,8 @@ body {
 }
 
 .poem-2:hover {
-  padding-right: 0.75vw;
-  padding-left: 0.75vw;
+  padding-right: 0vw;
+  padding-left: 1vw;
 }
 
 .poem-div {
@@ -646,7 +659,7 @@ body {
 }
 
 .div-block-5 {
-  width: 25vw;
+  width: 27.5vw;
 }
 
 .poem-title {
@@ -709,16 +722,17 @@ body {
 }
 
 .poem-1:hover {
-  padding-right: 0.75vw;
-  padding-left: 0.75vw;
+  padding-right: 0vw;
+  padding-left: 1vw;
 }
 
 .index2 {
+  width: 1px;
   height: 0.5vh;
 }
 
 .menu-link {
-  margin-right: 2.6vw;
+  margin-right: 2.2vw;
   text-decoration: none;
 }
 
@@ -797,7 +811,7 @@ body {
   position: sticky;
   top: 0px;
   z-index: 150;
-  width: 2px;
+  width: 0.1vw;
   height: 100vh;
   background-color: #131313;
 }
@@ -960,6 +974,17 @@ body {
   top: 0%;
   right: auto;
   bottom: auto;
+}
+
+.div-block-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
 }
 
 @media screen and (max-width: 991px) {
@@ -1254,6 +1279,7 @@ body {
   .video-box {
     width: 90vw;
     height: 30vh;
+    border-radius: 20px;
   }
 
   .color {
