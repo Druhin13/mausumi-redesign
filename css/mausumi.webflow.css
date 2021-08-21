@@ -32,10 +32,10 @@ body {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   background-color: #e6e1db;
 }
 
@@ -732,7 +732,7 @@ body {
 }
 
 .menu-link {
-  margin-right: 2.2vw;
+  margin-right: 2vw;
   text-decoration: none;
 }
 
