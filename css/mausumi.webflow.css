@@ -26,7 +26,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 203.5vw;
+  width: 253.6vw;
   margin-left: 50vw;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -295,6 +295,7 @@ body {
   width: 15%;
   margin-right: 0vw;
   padding-top: 0.5vh;
+  padding-right: 0vw;
   padding-bottom: 0.5vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -329,6 +330,7 @@ body {
   width: 10%;
   margin-right: 0vw;
   padding-top: 0.5vh;
+  padding-right: 0vw;
   padding-bottom: 0.5vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -642,6 +644,7 @@ body {
   padding-bottom: 2.75vh;
   -webkit-transition: padding 300ms ease;
   transition: padding 300ms ease;
+  cursor: default;
 }
 
 .poem-2:hover {
@@ -728,6 +731,7 @@ body {
   padding-bottom: 1.85vh;
   -webkit-transition: padding 300ms ease;
   transition: padding 300ms ease;
+  cursor: default;
 }
 
 .poem-1:hover {
@@ -996,6 +1000,13 @@ body {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+}
+
+.belief {
+  width: 50vw;
+  height: 100vh;
+  padding-right: 3vw;
+  padding-left: 3vw;
 }
 
 @media screen and (max-width: 991px) {
