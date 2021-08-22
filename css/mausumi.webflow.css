@@ -6,6 +6,7 @@ body {
 }
 
 .body {
+  height: 300vh;
   background-color: #e6e1db;
   font-family: Prociono, sans-serif;
   color: #131313;
@@ -14,7 +15,12 @@ body {
 }
 
 .body.overflow {
-  height: 300vw;
+  height: 600vh;
+}
+
+.body.library {
+  height: auto;
+  background-color: #1b1b1b;
 }
 
 .main {
@@ -146,7 +152,7 @@ body {
 
 .right-block {
   z-index: 150;
-  width: 49.9vw;
+  width: 49.8vw;
   padding-right: 3vw;
   padding-bottom: 0vh;
   padding-left: 3vw;
