@@ -1585,6 +1585,10 @@ body {
     margin-top: 0vh;
   }
 
+  .library1 {
+    width: 100%;
+  }
+
   .poem-category {
     font-size: 1.75vw;
   }
@@ -1597,9 +1601,80 @@ body {
     font-size: 1.75vw;
   }
 
+  .vertical-space {
+    width: 3vw;
+  }
+
+  .vertical-space.tablet {
+    display: none;
+  }
+
+  .accordion-toggle {
+    height: 36px;
+  }
+
   .grid {
     margin-right: 5vw;
     margin-left: 5vw;
+  }
+
+  .library2 {
+    width: 100%;
+  }
+
+  .library3 {
+    width: 100%;
+  }
+
+  .library4 {
+    width: 100%;
+  }
+
+  .all-poems {
+    width: 90vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+
+  .desktop-divison {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .tablet-division {
+    width: 100%;
+  }
+
+  .tablet-division-2 {
+    width: 100%;
+    margin-top: 7.5vh;
+  }
+
+  .mobile-division {
+    width: 50%;
+  }
+
+  .horizontal-space {
+    height: 8vh;
+  }
+
+  .library5 {
+    width: 100%;
+  }
+
+  .library6 {
+    width: 100%;
+  }
+
+  .library7 {
+    width: 100%;
+  }
+
+  .library8 {
+    width: 100%;
   }
 }
 
