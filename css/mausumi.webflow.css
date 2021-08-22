@@ -1029,7 +1029,7 @@ body {
 }
 
 .library1 {
-  width: 18vw;
+  width: 23.5vw;
 }
 
 .library-poem-holder {
@@ -1080,7 +1080,7 @@ body {
 .bullet {
   width: 0.75vw;
   height: 0.75vw;
-  margin-right: 1vw;
+  margin-right: 0.75vw;
   border-radius: 50%;
   background-color: #e6e1db;
 }
@@ -1258,11 +1258,11 @@ body {
 }
 
 .library2 {
-  width: 18vw;
+  width: 19vw;
 }
 
 .library3 {
-  width: 18vw;
+  width: 17vw;
 }
 
 .library4 {
@@ -1330,11 +1330,15 @@ body {
 }
 
 .library5 {
-  width: 18vw;
+  width: 23.5vw;
 }
 
 .library6 {
-  width: 18vw;
+  width: 19vw;
+}
+
+.library7 {
+  width: 17vw;
 }
 
 @media screen and (max-width: 991px) {
