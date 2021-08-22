@@ -1269,6 +1269,18 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.library2 {
+  width: 18vw;
+}
+
+.library3 {
+  width: 18vw;
+}
+
+.library4 {
+  width: 18vw;
+}
+
 @media screen and (max-width: 991px) {
   .main {
     width: 100vw;
