@@ -1,3 +1,15 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
 body {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #333;
@@ -19,8 +31,8 @@ body {
 }
 
 .body.library {
-  height: auto;
-  background-color: #1b1b1b;
+  height: 100vh;
+  background-color: #131313;
 }
 
 .main {
@@ -808,11 +820,6 @@ body {
 }
 
 .noise-filter {
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  right: auto;
-  bottom: auto;
   width: 0px;
   height: 0px;
 }
@@ -844,11 +851,6 @@ body {
 }
 
 .title-marquee {
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  right: auto;
-  bottom: auto;
   width: 0px;
   height: 0px;
 }
@@ -1013,6 +1015,254 @@ body {
   height: 100vh;
   padding-right: 3vw;
   padding-left: 3vw;
+}
+
+.archive {
+  display: -ms-grid;
+  display: grid;
+  width: 100vw;
+  margin-top: 15vh;
+  padding-right: 20vw;
+  padding-left: 3vw;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
+  -webkit-align-content: start;
+  -ms-flex-line-pack: start;
+  align-content: start;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.library-poem-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.line4 {
+  width: 100%;
+  height: 1.5px;
+  margin-top: 0vh;
+  background-color: #e6e1db;
+  opacity: 0.5;
+}
+
+.poem-category {
+  margin-top: 0.25vh;
+  font-family: Kalpurush, Arial, sans-serif;
+  color: #e6e1db;
+  font-size: 1.25vw;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.div-block-8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3vh;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.bullet {
+  width: 0.75vw;
+  height: 0.75vw;
+  margin-right: 1vw;
+  border-radius: 50%;
+  background-color: #e6e1db;
+}
+
+.library-category-holder {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3vh;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-10 {
+  height: 1.5vh;
+  padding-right: 1vw;
+}
+
+.lottie-animation {
+  height: 100%;
+}
+
+.dropdown {
+  overflow: hidden;
+  width: 100%;
+  color: #e6e1db;
+}
+
+.dropdown-toggle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5vh;
+  padding: 1.5vh 0px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.plus {
+  height: 1.5vh;
+}
+
+.dropdown-link {
+  padding: 2vh 0px 3vh;
+  background-color: #131313;
+  font-family: Kalpurush, Arial, sans-serif;
+  color: #e6e1db;
+  font-size: 1.15vw;
+  line-height: 1.3;
+}
+
+.dropdown-list {
+  position: static;
+  display: block;
+  background-color: #131313;
+}
+
+.dropdown-list.w--open {
+  position: static;
+  background-color: #131313;
+}
+
+.whole-poem {
+  padding: 1.5vh 0px 3vh;
+  font-family: Kalpurush, Arial, sans-serif;
+  color: #e6e1db;
+  font-size: 1.1vw;
+  line-height: 1.2;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.poem-name {
+  font-family: Kalpurush, Arial, sans-serif;
+  color: #e6e1db;
+  font-size: 1.25vw;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15vh;
+  margin-right: 18vw;
+  margin-left: 3vw;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.vertical-space {
+  width: 3vw;
+  height: 100%;
+}
+
+.accordion-item {
+  overflow: hidden;
+  width: 100%;
+  font-family: Kalpurush, Arial, sans-serif;
+  color: #e6e1db;
+}
+
+.accordion-toggle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 54px;
+  padding: 0px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.text-block {
+  width: 100%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  white-space: normal;
+}
+
+.dropdown-list-2 {
+  position: static;
+  display: block;
+  padding: 0px;
+  background-color: #131313;
+}
+
+.grid {
+  margin-top: 13vh;
+  margin-right: 26vw;
+  margin-left: 3vw;
+  grid-column-gap: 21px;
+  grid-row-gap: 2.5vw;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 @media screen and (max-width: 991px) {
@@ -1252,6 +1502,18 @@ body {
   .featured-section.tablet {
     margin-top: 0vh;
   }
+
+  .poem-category {
+    font-size: 1.75vw;
+  }
+
+  .whole-poem {
+    font-size: 1.75vw;
+  }
+
+  .poem-name {
+    font-size: 1.75vw;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1444,6 +1706,18 @@ body {
 
   .featured-section {
     margin-top: 7.5vh;
+  }
+
+  .poem-category {
+    font-size: 3.5vw;
+  }
+
+  .whole-poem {
+    font-size: 3.5vw;
+  }
+
+  .poem-name {
+    font-size: 3.5vw;
   }
 }
 
