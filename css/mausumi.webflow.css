@@ -1058,6 +1058,7 @@ body {
 
 .poem-category {
   margin-top: 0.25vh;
+  opacity: 0.8;
   font-family: Kalpurush, Arial, sans-serif;
   color: #e6e1db;
   font-size: 1.1vw;
@@ -1172,6 +1173,7 @@ body {
 
 .whole-poem {
   padding: 1.5vh 0px 3vh;
+  opacity: 0.8;
   font-family: Kalpurush, Arial, sans-serif;
   color: #e6e1db;
   font-size: 1.1vw;
@@ -1181,6 +1183,7 @@ body {
 }
 
 .poem-name {
+  opacity: 0.8;
   font-family: Kalpurush, Arial, sans-serif;
   color: #e6e1db;
   font-size: 1.25vw;
@@ -1270,11 +1273,8 @@ body {
 }
 
 .all-poems {
-  width: 94vw;
-  margin-top: 13vh;
-  margin-right: 3vw;
-  margin-left: 3vw;
-  padding-bottom: 13vh;
+  width: 100vw;
+  padding: 13vh 3vw;
 }
 
 .desktop-divison {
@@ -1591,7 +1591,7 @@ body {
   }
 
   .poem-category {
-    font-size: 1.75vw;
+    font-size: 2.5vw;
   }
 
   .whole-poem {
@@ -1632,9 +1632,9 @@ body {
   }
 
   .all-poems {
-    width: 90vw;
-    margin-right: 5vw;
-    margin-left: 5vw;
+    width: 100vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
   }
 
   .desktop-divison {
@@ -1901,7 +1901,8 @@ body {
   }
 
   .all-poems {
-    margin-top: 10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
 
   .tablet-division {
