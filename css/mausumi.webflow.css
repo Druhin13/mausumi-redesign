@@ -1343,6 +1343,10 @@ body {
   width: 21vw;
 }
 
+.library8 {
+  width: 20vw;
+}
+
 @media screen and (max-width: 991px) {
   .main {
     width: 100vw;
