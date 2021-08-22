@@ -1359,6 +1359,14 @@ body {
   width: 20vw;
 }
 
+.new-transition {
+  position: absolute;
+  z-index: 225;
+  width: 100vw;
+  height: 0vh;
+  background-color: #131313;
+}
+
 @media screen and (max-width: 991px) {
   .body.overflow {
     height: auto;
