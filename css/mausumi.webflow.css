@@ -1177,7 +1177,7 @@ body {
   font-size: 1vw;
   line-height: 1.2;
   text-align: left;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .poem-name {
