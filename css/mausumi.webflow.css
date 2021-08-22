@@ -389,6 +389,13 @@ body {
   background-color: #131313;
 }
 
+.line.light {
+  height: 1.5px;
+  margin-top: 0vh;
+  background-color: #e6e1db;
+  opacity: 0.8;
+}
+
 .video-area {
   position: relative;
   display: -webkit-box;
@@ -1273,8 +1280,12 @@ body {
 }
 
 .all-poems {
+  position: absolute;
+  z-index: 250;
+  display: none;
   width: 100vw;
-  padding: 13vh 3vw;
+  padding: 10vh 3vw 15vh;
+  background-color: #131313;
 }
 
 .desktop-divison {
@@ -1283,6 +1294,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  margin-top: 7vh;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
