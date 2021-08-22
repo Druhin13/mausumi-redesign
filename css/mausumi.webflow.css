@@ -1349,6 +1349,7 @@ body {
 
 @media screen and (max-width: 991px) {
   .main {
+    position: static;
     width: 100vw;
     margin-left: 0vw;
     -webkit-box-orient: vertical;
