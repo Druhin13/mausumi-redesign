@@ -1040,6 +1040,10 @@ body {
   grid-template-rows: auto auto;
 }
 
+.library1 {
+  width: 18vw;
+}
+
 .library-poem-holder {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1259,8 +1263,8 @@ body {
   margin-top: 13vh;
   margin-right: 26vw;
   margin-left: 3vw;
-  grid-column-gap: 21px;
-  grid-row-gap: 2.5vw;
+  grid-column-gap: 2.5vw;
+  grid-row-gap: 2.65vw;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -1513,6 +1517,11 @@ body {
 
   .poem-name {
     font-size: 1.75vw;
+  }
+
+  .grid {
+    margin-right: 5vw;
+    margin-left: 5vw;
   }
 }
 
