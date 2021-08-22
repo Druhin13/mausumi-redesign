@@ -1258,21 +1258,23 @@ body {
 }
 
 .library2 {
-  width: 19vw;
+  width: 22vw;
 }
 
 .library3 {
-  width: 17vw;
+  width: 21vw;
 }
 
 .library4 {
-  width: 18vw;
+  width: 20vw;
 }
 
 .all-poems {
+  width: 94vw;
   margin-top: 13vh;
-  margin-right: 15vw;
+  margin-right: 3vw;
   margin-left: 3vw;
+  padding-bottom: 13vh;
 }
 
 .desktop-divison {
@@ -1334,11 +1336,11 @@ body {
 }
 
 .library6 {
-  width: 19vw;
+  width: 22vw;
 }
 
 .library7 {
-  width: 17vw;
+  width: 21vw;
 }
 
 @media screen and (max-width: 991px) {
