@@ -1291,12 +1291,12 @@ body {
 }
 
 .all-poems {
-  position: absolute;
+  position: relative;
   z-index: 225;
   display: block;
   width: 100vw;
   margin-top: 0vh;
-  padding: 0vh 0vw 15vh;
+  padding: 0vh 0vw 10vh;
   background-color: #131313;
   -webkit-transition: height 200ms ease;
   transition: height 200ms ease;
@@ -1991,7 +1991,7 @@ body {
 
   .all-poems {
     padding-top: 0vh;
-    padding-bottom: 0vh;
+    padding-bottom: 10vh;
   }
 
   .tablet-division {
