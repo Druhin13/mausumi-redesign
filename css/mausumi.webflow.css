@@ -393,6 +393,7 @@ body {
   position: -webkit-sticky;
   position: sticky;
   top: 10vh;
+  z-index: 250;
   height: 1.5px;
   margin-top: 0vh;
   background-color: #e6e1db;
@@ -1058,6 +1059,10 @@ body {
   align-items: flex-start;
 }
 
+.library-poem-holder.opekkha {
+  display: none;
+}
+
 .line4 {
   width: 100%;
   height: 1.5px;
@@ -1071,8 +1076,9 @@ body {
   opacity: 0.8;
   font-family: Kalpurush, Arial, sans-serif;
   color: #e6e1db;
-  font-size: 1.1vw;
+  font-size: 1.25vw;
   text-align: left;
+  letter-spacing: -0.05vw;
   text-transform: uppercase;
 }
 
@@ -1189,6 +1195,7 @@ body {
   font-size: 1.1vw;
   line-height: 1.2;
   text-align: left;
+  letter-spacing: -0.04vw;
   text-transform: none;
 }
 
@@ -1198,6 +1205,7 @@ body {
   color: #e6e1db;
   font-size: 1.25vw;
   text-align: left;
+  letter-spacing: -0.05vw;
   text-transform: uppercase;
 }
 
@@ -1287,7 +1295,7 @@ body {
   z-index: 225;
   display: block;
   width: 100vw;
-  margin-top: 400vh;
+  margin-top: 0vh;
   padding: 0vh 0vw 15vh;
   background-color: #131313;
   -webkit-transition: height 200ms ease;
@@ -1398,13 +1406,15 @@ body {
   -ms-flex-pack: end;
   justify-content: flex-end;
   background-color: #131313;
-  opacity: 0.85;
-  -webkit-filter: blur(4px);
-  filter: blur(4px);
+  opacity: 0.9;
 }
 
 .library-container {
   position: relative;
+}
+
+.smooth-scroll-wrapper {
+  margin-top: 400vh;
 }
 
 @media screen and (max-width: 991px) {
@@ -1980,8 +1990,8 @@ body {
   }
 
   .all-poems {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
   }
 
   .tablet-division {
