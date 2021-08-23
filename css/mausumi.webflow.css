@@ -1281,9 +1281,10 @@ body {
 
 .all-poems {
   position: absolute;
-  z-index: 250;
-  display: none;
+  z-index: 199;
+  display: block;
   width: 100vw;
+  margin-top: 400vh;
   padding: 10vh 3vw 15vh;
   background-color: #131313;
 }
