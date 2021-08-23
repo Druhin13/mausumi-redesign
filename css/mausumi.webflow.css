@@ -1290,6 +1290,8 @@ body {
   margin-top: 400vh;
   padding: 0vh 3vw 15vh;
   background-color: #131313;
+  -webkit-transition: height 200ms ease;
+  transition: height 200ms ease;
 }
 
 .desktop-divison {
@@ -1394,7 +1396,7 @@ body {
   -ms-flex-pack: end;
   justify-content: flex-end;
   background-color: #131313;
-  opacity: 0.75;
+  opacity: 0.85;
   -webkit-filter: blur(4px);
   filter: blur(4px);
 }
