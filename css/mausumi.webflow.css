@@ -390,6 +390,9 @@ body {
 }
 
 .line.light {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10vh;
   height: 1.5px;
   margin-top: 0vh;
   background-color: #e6e1db;
@@ -1281,15 +1284,17 @@ body {
 
 .all-poems {
   position: absolute;
-  z-index: 199;
+  z-index: 225;
   display: block;
   width: 100vw;
   margin-top: 400vh;
-  padding: 10vh 3vw 15vh;
+  padding: 0vh 3vw 15vh;
   background-color: #131313;
 }
 
 .desktop-divison {
+  position: relative;
+  z-index: 200;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1366,6 +1371,36 @@ body {
   width: 100vw;
   height: 0vh;
   background-color: #131313;
+}
+
+.library-topbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 250;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background-color: #131313;
+  opacity: 0.75;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+
+.library-container {
+  position: relative;
 }
 
 @media screen and (max-width: 991px) {
