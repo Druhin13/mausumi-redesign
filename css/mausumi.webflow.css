@@ -1396,6 +1396,8 @@ body {
   display: flex;
   width: 100%;
   height: 10vh;
+  padding-right: 2vw;
+  padding-left: 3vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1405,6 +1407,10 @@ body {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
   background-color: #131313;
   opacity: 0.9;
 }
@@ -1766,6 +1772,15 @@ body {
   .library8 {
     width: 100%;
   }
+
+  .library-topbar {
+    padding-right: 4vw;
+    padding-left: 5vw;
+  }
+
+  .smooth-scroll-wrapper {
+    margin-top: 0vh;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2013,6 +2028,10 @@ body {
 
   .mobile-division {
     width: 100%;
+  }
+
+  .library-topbar {
+    padding-right: 3vw;
   }
 }
 
