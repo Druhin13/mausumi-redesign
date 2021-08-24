@@ -255,6 +255,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-right: 0vw;
+  padding-right: 0vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -861,6 +862,7 @@ body {
 }
 
 .title-marquee {
+  display: none;
   width: 0px;
   height: 0px;
 }
