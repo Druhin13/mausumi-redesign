@@ -271,7 +271,7 @@ body {
   opacity: 1;
   font-family: Raleway, sans-serif;
   color: #131313;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .menu-el.date {
@@ -320,7 +320,7 @@ body {
   background-color: rgba(230, 225, 219, 0.7);
   opacity: 1;
   color: #131313;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .menu-el.help-msg {
@@ -355,7 +355,7 @@ body {
   background-color: rgba(230, 225, 219, 0.7);
   opacity: 1;
   color: #131313;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .bengali {
@@ -2195,6 +2195,27 @@ body {
   }
 }
 
+@font-face {
+  font-family: 'Prociono';
+  src: url('../fonts/prociono-regular-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/raleway-regular-webfont.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('../fonts/raleway-bold-webfont.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 @font-face {
   font-family: 'Kalpurush';
   src: url('../fonts/Kalpurush.woff') format('woff');
