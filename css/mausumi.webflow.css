@@ -1704,14 +1704,17 @@ body {
 
   .poem-category {
     font-size: 2.5vw;
+    letter-spacing: -0.1vw;
   }
 
   .whole-poem {
     font-size: 1.9vw;
+    letter-spacing: -0.076vw;
   }
 
   .poem-name {
     font-size: 2.5vw;
+    letter-spacing: -0.1vw;
   }
 
   .vertical-space {
@@ -1998,6 +2001,7 @@ body {
 
   .poem-category {
     font-size: 5vw;
+    letter-spacing: -0.2vw;
   }
 
   .bullet {
@@ -2010,10 +2014,12 @@ body {
     padding-bottom: 2.5vh;
     font-size: 4vw;
     line-height: 1.25;
+    letter-spacing: -0.16vw;
   }
 
   .poem-name {
     font-size: 5vw;
+    letter-spacing: -0.2vw;
   }
 
   .vertical-space {
