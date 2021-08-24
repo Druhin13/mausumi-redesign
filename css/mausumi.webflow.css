@@ -774,6 +774,10 @@ body {
   text-decoration: none;
 }
 
+.menu-link.back-to-about {
+  margin-right: 0vw;
+}
+
 .menu-link-language {
   margin-right: 0vw;
   opacity: 0.6;
@@ -1622,6 +1626,10 @@ body {
   .menu-link {
     margin-right: 1vw;
     padding: 0vh 0vw;
+  }
+
+  .menu-link.back-to-about {
+    margin-right: 0vw;
   }
 
   .menu-link-language.bengali {

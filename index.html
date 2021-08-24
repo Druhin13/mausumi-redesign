@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Aug 24 2021 00:52:26 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Aug 24 2021 01:33:03 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="611d97540befc352cfd3da60" data-wf-site="611d8e1a258be484f14cddb8" lang="en">
 <head>
   <meta charset="utf-8">
@@ -64,7 +64,7 @@ body .transition {display: block}
 <body data-w-id="611740017e15e3badded0ec7" class="body overflow">
   <nav data-w-id="70e48601-38f9-6fd3-3e90-e6fab2787ade" style="-webkit-transform:translate3d(null, -10vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(null, -10vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(null, -10vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(null, -10vh, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="menu-bar">
     <div class="menu-left-elements">
-      <a href="#" id="about" class="menu-link w-inline-block">
+      <a href="#" id="about-link" class="menu-link w-inline-block">
         <div class="menu-el about">About</div>
       </a>
       <a href="#library" class="menu-link w-inline-block">
@@ -415,7 +415,9 @@ pointer-events: none;
     <div id="library" class="all-poems wf-section">
       <div class="library-container">
         <div class="library-topbar">
-          <div class="menu-el about back-to-about">back to about</div>
+          <a id="about-link2" href="#" class="menu-link back-to-about w-inline-block">
+            <div class="menu-el about back-to-about">back to about</div>
+          </a>
         </div>
         <div class="line light"></div>
         <div class="desktop-divison">
@@ -1612,5 +1614,24 @@ $( ".left-block" ).click(function(e) {
   <script src="https://mausumi.in/textanim.js"></script>
   <!--  content from json  -->
   <!--  <script src="https://raw.githubusercontent.com/mausumi-in/mausumi-in.github.io/main/app_eng.js"></script>  -->
+  <!--  forcing to go to top everytime the page is reloaded -->
+  <script>
+	window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+</script>
+  <!--  go to top, when 'about' is clicked -->
+  <script>
+	$(document).ready(function(){
+    $('#about-link').click(function(){
+     window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+	});
+  $(document).ready(function(){
+    $('#about-link2').click(function(){
+     window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+	});
+</script>
 </body>
 </html>
