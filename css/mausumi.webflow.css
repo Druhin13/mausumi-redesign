@@ -15,7 +15,7 @@ body {
 }
 
 .body.overflow {
-  height: 600vh;
+  height: 650vh;
 }
 
 .body.library {
@@ -467,6 +467,7 @@ body {
 
 .star {
   width: 1.5vw;
+  height: 1.5vw;
 }
 
 .video-box {
@@ -1662,6 +1663,7 @@ body {
 
   .star {
     width: 3.5vw;
+    height: 3.5vw;
   }
 
   .video-box {
@@ -2019,6 +2021,7 @@ body {
 
   .star {
     width: 5vw;
+    height: 5vw;
   }
 
   .video-box {
