@@ -32,7 +32,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 260vw;
+  width: 206.8vw;
   margin-left: 50vw;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -1541,7 +1541,7 @@ body {
   }
 
   .main {
-    position: static;
+    position: relative;
     width: 100vw;
     margin-left: 0vw;
     -webkit-box-orient: vertical;
@@ -1618,7 +1618,7 @@ body {
   }
 
   .heading {
-    margin-top: -1px;
+    margin-top: -2px;
     padding-top: 0px;
     padding-bottom: 3px;
     font-size: 5.6vw;
@@ -1914,7 +1914,7 @@ body {
   }
 
   .smooth-scroll-wrapper {
-    margin-top: 0vh;
+    margin-top: 7.5vh;
   }
 
   .footer {

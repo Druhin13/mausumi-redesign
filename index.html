@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue Aug 24 2021 16:50:04 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Aug 24 2021 17:09:59 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="611d97540befc352cfd3da60" data-wf-site="611d8e1a258be484f14cddb8" lang="en">
 <head>
   <meta charset="utf-8">
@@ -148,48 +148,7 @@ pointer-events: none;
       <div class="menu-el help-msg">playground</div>
       <div class="menu-el help-msg2">CLICK TO ADD STICKERS</div>
     </section>
-    <section class="left-block">
-      <div class="w-embed">
-        <style>
-body {
-  /*overflow-x: hidden; /* Hide horizontal scrollbar */
-}
-::-webkit-scrollbar {
-    width: 10px;
-}
-::-webkit-scrollbar-track {
-    background-color: #E6E1DB;
-}
-::-webkit-scrollbar-thumb {
-    background-color: #1b1b1b;
-    /*border-radius: 2px;*/
-}
-/*	changing the selection color*/
-::-moz-selection {
-		color: #D2C8BB;
-		background: #D2C8BB;
-}
-::selection {
-		color: #D2C8BB;
-		background: #D2C8BB;
-}
-/*	changing the selection color for the Mausumi button*/
-img::-moz-selection {
-		color: rgba(0,0,0,0.0);
-		background: rgba(0,0,0,0.0);
-}
-img::selection {
-		color: rgba(0,0,0,0.0);
-		background: rgba(0,0,0,0.0);
-}
-.blank-left-block{
-pointer-events: none;
-}
-</style>
-      </div><img src="images/logo-txt.svg" loading="lazy" draggable="false" alt="Mausumi logo" class="logo-txt">
-      <div class="menu-el help-msg">playground</div>
-      <div class="menu-el help-msg2">CLICK TO ADD STICKERS</div>
-    </section>
+    <section class="left-block"></section>
   </div>
   <div class="main wf-section">
     <div data-w-id="a0c14afe-2c5b-5f6d-e79b-531312e58f9e" style="width:0.1vw;height:0vh" class="line-divider"></div>
@@ -410,7 +369,6 @@ pointer-events: none;
       </section>
     </div>
     <div data-w-id="2ce1b004-ee78-8f0c-d70f-b923579f2563" style="width:0.1vw;height:0vh" class="line-divider"></div>
-    <div data-w-id="7328a69e-a78d-0652-14c8-01ce3bfbaa38" style="width:0.1vw;height:0vh" class="line-divider"></div>
   </div>
   <div class="smooth-scroll-wrapper">
     <div id="library" class="all-poems wf-section">
@@ -420,7 +378,7 @@ pointer-events: none;
             <div class="menu-el about back-to-about">back to about</div>
           </a>
         </div>
-        <div class="line light"></div>
+        <div data-w-id="9d970c08-caa1-58e1-3980-33b307a5b6b4" style="width:0%" class="line light"></div>
         <div class="desktop-divison">
           <div class="tablet-division">
             <div class="mobile-division">
@@ -1457,19 +1415,6 @@ pointer-events: none;
     -webkit-animation: rotating 2.5s linear infinite;
 }
 </style>
-  </div>
-  <div class="title-marquee w-embed w-script">
-    <script type="text/javascript">
-title = "Mausumi's Showcase of Writings";
-position = 0;
-function scrolltitle() {
-    document.title = title.substring(position, title.length) + title.substring(0, position); 
-    position++;
-    if (position > title.length) position = 0;
-    titleScroll = window.setTimeout(scrolltitle,300);
-}
-scrolltitle();
-</script>
   </div>
   <div class="awwwards w-embed">
     <div id="awwwards" style="position: fixed; z-index: 999; transform: translateY(-50%); top: 50%;  left: 0">
