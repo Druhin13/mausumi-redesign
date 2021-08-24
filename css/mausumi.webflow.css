@@ -378,6 +378,10 @@ body {
   display: none;
 }
 
+.heading.featured.fade-up3.tricks {
+  padding-right: 3px;
+}
+
 .top-space {
   height: 7.5vh;
 }
@@ -394,8 +398,11 @@ body {
   position: sticky;
   top: 10vh;
   z-index: 250;
+  width: 94vw;
   height: 1.5px;
   margin-top: 0vh;
+  margin-right: 3vw;
+  margin-left: 3vw;
   background-color: #e6e1db;
   opacity: 0.8;
 }
@@ -1526,6 +1533,12 @@ body {
 
   .line.library.tablet {
     margin-top: 7.5vh;
+  }
+
+  .line.light {
+    width: 90vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
   }
 
   .div-block-2 {
