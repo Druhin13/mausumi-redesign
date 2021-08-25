@@ -32,7 +32,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 206.8vw;
+  width: 204.5vw;
   margin-left: 50vw;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -290,7 +290,7 @@ body {
 .menu-el.english {
   padding-top: 0vh;
   padding-right: 0vw;
-  padding-bottom: 0vh;
+  padding-bottom: 0.2vh;
   opacity: 1;
 }
 
@@ -300,6 +300,7 @@ body {
   top: auto;
   right: 17.5%;
   bottom: 7.5%;
+  z-index: 15;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -335,6 +336,7 @@ body {
   top: 7.5%;
   right: 20%;
   bottom: auto;
+  z-index: 15;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -789,7 +791,7 @@ body {
 
 .menu-link {
   margin-right: 0vw;
-  padding: 0vh 0vw;
+  padding: 0vh 0vw 0.2vh;
   text-decoration: none;
 }
 
@@ -809,7 +811,7 @@ body {
 }
 
 .menu-link-language.bengali {
-  padding: 0vh 0vw;
+  padding: 0vh 0vw 0.2vh;
   text-decoration: none;
 }
 
@@ -962,7 +964,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  width: 100%;
+  width: 90%;
   height: 75vh;
   margin-top: 0vh;
   margin-right: 3vw;
@@ -979,14 +981,10 @@ body {
 }
 
 .profile {
-  position: absolute;
   z-index: 20;
-  width: 100%;
-  height: 100%;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
+  width: auto;
+  height: 75%;
+  margin: 0vh 3vw 7.5vh;
   border-radius: 30px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -997,9 +995,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 34vw;
   height: 100vh;
-  padding-bottom: 7.5vh;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1465,7 +1461,7 @@ body {
 }
 
 .smooth-scroll-wrapper {
-  margin-top: 450vh;
+  margin-top: 475vh;
 }
 
 .footer {
