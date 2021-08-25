@@ -1742,6 +1742,10 @@ body {
     padding-bottom: 2.5vh;
   }
 
+  .poem-2:hover {
+    padding-left: 2vw;
+  }
+
   .div-block-5 {
     width: 35vw;
   }
@@ -1762,6 +1766,10 @@ body {
     letter-spacing: -0.1vw;
   }
 
+  .line2.mobile {
+    display: none;
+  }
+
   .div-block-6 {
     width: 2.5vw;
   }
@@ -1773,6 +1781,10 @@ body {
   .poem-1 {
     padding-top: 1.5vh;
     padding-bottom: 1.5vh;
+  }
+
+  .poem-1:hover {
+    padding-left: 2vw;
   }
 
   .menu-link {
@@ -2108,6 +2120,10 @@ body {
     padding-bottom: 2.25vh;
   }
 
+  .poem-2:hover {
+    padding-left: 2.5vw;
+  }
+
   .div-block-5 {
     width: 70vw;
   }
@@ -2138,6 +2154,10 @@ body {
   .poem-1 {
     padding-top: 1.5vh;
     padding-bottom: 1.25vh;
+  }
+
+  .poem-1:hover {
+    padding-left: 2.5vw;
   }
 
   .menu-link {
