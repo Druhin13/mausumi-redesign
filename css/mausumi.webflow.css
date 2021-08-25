@@ -1716,7 +1716,7 @@ body {
   }
 
   .poem-title {
-    font-size: 3vw;
+    font-size: 2.65vw;
     letter-spacing: -0.15vw;
   }
 
@@ -1824,17 +1824,17 @@ body {
   }
 
   .poem-category {
-    font-size: 2.5vw;
+    font-size: 2.65vw;
     letter-spacing: -0.1vw;
   }
 
   .whole-poem {
-    font-size: 1.9vw;
+    font-size: 2vw;
     letter-spacing: -0.076vw;
   }
 
   .poem-name {
-    font-size: 2.5vw;
+    font-size: 2.65vw;
     letter-spacing: -0.1vw;
   }
 
