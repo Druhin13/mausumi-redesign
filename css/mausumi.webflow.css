@@ -32,7 +32,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 205vw;
+  width: 255vw;
   margin-left: 50vw;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -486,7 +486,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
-  width: 32vw;
+  width: 30vw;
   height: 27vh;
   margin-top: 7vh;
   -webkit-box-orient: vertical;
@@ -1462,7 +1462,7 @@ body {
 }
 
 .smooth-scroll-wrapper {
-  margin-top: 475vh;
+  margin-top: 515vh;
 }
 
 .footer {
@@ -1543,6 +1543,37 @@ body {
   position: relative;
   z-index: 5;
   width: 50vw;
+}
+
+.left-block-no-click {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50vw;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/lines.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: repeat;
+  cursor: crosshair;
+}
+
+.left-block-no-click.mobile {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
@@ -1936,6 +1967,16 @@ body {
   .footer-links {
     width: 92vw;
     margin-left: -1vw;
+  }
+
+  .left-block-no-click {
+    display: none;
+  }
+
+  .left-block-no-click.mobile {
+    display: none;
+    width: 100vw;
+    height: 100vh;
   }
 }
 
