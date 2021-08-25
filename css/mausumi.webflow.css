@@ -32,7 +32,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 204.5vw;
+  width: 205vw;
   margin-left: 50vw;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -42,6 +42,7 @@ body {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+  border-right: 0.1vw solid #131313;
   background-color: #e6e1db;
 }
 
@@ -634,10 +635,10 @@ body {
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .sec2 {
@@ -721,7 +722,7 @@ body {
 
 .poem-title {
   font-family: Kalpurush, Arial, sans-serif;
-  font-size: 1.55vw;
+  font-size: 1.35vw;
   letter-spacing: -0.0775vw;
   text-transform: uppercase;
 }
@@ -737,7 +738,7 @@ body {
 .poem-desc {
   margin-top: 2.5vh;
   font-family: Kalpurush, Arial, sans-serif;
-  font-size: 1.25vw;
+  font-size: 1.2vw;
   line-height: 1.2;
   font-weight: 400;
   letter-spacing: -0.0625vw;
