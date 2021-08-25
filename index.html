@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed Aug 25 2021 17:21:03 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed Aug 25 2021 17:58:44 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="611d97540befc352cfd3da60" data-wf-site="611d8e1a258be484f14cddb8" lang="en">
 <head>
   <meta charset="utf-8">
@@ -92,7 +92,7 @@ body .transition {display: block}
   </div>
   <div class="new-transition"></div>
   <div class="fixed-section wf-section">
-    <section class="left-block">
+    <section class="left-block disable-select">
       <div class="w-embed">
         <style>
 body {
@@ -144,10 +144,17 @@ pointer-events: none;
 * {
     -webkit-tap-highlight-color: transparent;
 }
+.disable-select {
+		-webkit-touch-callout:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
 </style>
-      </div><img src="images/logo-txt.svg" loading="lazy" draggable="false" alt="Mausumi logo" class="logo-txt">
-      <div class="menu-el help-msg">playground</div>
-      <div class="menu-el help-msg2">CLICK TO ADD STICKERS</div>
+      </div><img src="images/logo-txt.svg" loading="lazy" draggable="false" alt="Mausumi logo" class="logo-txt disable-select">
+      <div class="menu-el help-msg disable-select">playground</div>
+      <div class="menu-el help-msg2 disable-select">CLICK TO ADD STICKERS</div>
       <div data-w-id="6508451d-9078-675d-b2a2-392544f78b51" data-animation-type="lottie" data-src="documents/lines.json" data-loop="1" data-direction="-1" data-autoplay="1" data-is-ix2-target="0" data-renderer="svg" data-default-duration="15" data-duration="0" class="lottie-animation-2"></div>
     </section>
     <section class="left-block-no-click">
@@ -1427,7 +1434,7 @@ pointer-events: none;
       </div>
     </div>
   </div>
-  <div class="tricks-stickers"><img src="images/prithibi.svg" loading="eager" alt="" class="tricks-sticker prithibi"><img src="images/sofor.svg" loading="eager" alt="" class="tricks-sticker sofor"><img src="images/ichhe.svg" loading="eager" alt="" class="tricks-sticker ichhe"><img src="images/bhalobasa.svg" loading="eager" alt="" class="tricks-sticker bhalobasa"></div>
+  <div class="tricks-stickers"><img src="images/prithibi.svg" loading="eager" alt="" class="tricks-sticker prithibi disable-select"><img src="images/sofor.svg" loading="eager" alt="" class="tricks-sticker sofor disable-select"><img src="images/ichhe.svg" loading="eager" alt="" class="tricks-sticker ichhe disable-select"><img src="images/bhalobasa.svg" loading="eager" alt="" class="tricks-sticker bhalobasa disable-select"></div>
   <div class="rotate w-embed">
     <style>
 @-webkit-keyframes rotating {
