@@ -32,7 +32,7 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 255vw;
+  width: 253vw;
   margin-left: 50vw;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
