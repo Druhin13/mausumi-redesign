@@ -688,8 +688,8 @@ body {
 .poem-2 {
   padding-top: 2.75vh;
   padding-bottom: 2.75vh;
-  -webkit-transition: padding 300ms ease;
-  transition: padding 300ms ease;
+  -webkit-transition: background-color 300ms ease, padding 300ms ease;
+  transition: background-color 300ms ease, padding 300ms ease;
   cursor: default;
 }
 
