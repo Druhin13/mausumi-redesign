@@ -722,7 +722,7 @@ body {
 
 .poem-title {
   font-family: Kalpurush, Arial, sans-serif;
-  font-size: 1.35vw;
+  font-size: 1.3vw;
   letter-spacing: -0.0775vw;
   text-transform: uppercase;
 }
@@ -1082,7 +1082,7 @@ body {
 }
 
 .library1 {
-  width: 18vw;
+  width: 17vw;
 }
 
 .library-poem-holder {
@@ -1234,7 +1234,7 @@ body {
   opacity: 0.8;
   font-family: Kalpurush, Arial, sans-serif;
   color: #e6e1db;
-  font-size: 1.1vw;
+  font-size: 1vw;
   line-height: 1.2;
   text-align: left;
   letter-spacing: -0.04vw;
@@ -1328,15 +1328,15 @@ body {
 }
 
 .library2 {
-  width: 20vw;
-}
-
-.library3 {
   width: 18.5vw;
 }
 
+.library3 {
+  width: 17.5vw;
+}
+
 .library4 {
-  width: 19.5vw;
+  width: 18.5vw;
 }
 
 .all-poems {
@@ -1411,19 +1411,19 @@ body {
 }
 
 .library5 {
-  width: 18vw;
+  width: 17vw;
 }
 
 .library6 {
-  width: 20vw;
-}
-
-.library7 {
   width: 18.5vw;
 }
 
+.library7 {
+  width: 17.5vw;
+}
+
 .library8 {
-  width: 19.5vw;
+  width: 18.5vw;
 }
 
 .new-transition {
@@ -2055,11 +2055,15 @@ body {
   .heading {
     display: none;
     margin-top: -2px;
-    font-size: 7vw;
+    font-size: 6.85vw;
   }
 
   .heading.mobile {
     display: block;
+  }
+
+  .heading.mobile.fade-up2.tricks {
+    font-size: 6.75vw;
   }
 
   .heading.featured {
