@@ -1267,7 +1267,7 @@ body {
 }
 
 .vertical-space {
-  width: 2.5vw;
+  width: 1.75vw;
   height: 100%;
 }
 
@@ -1576,7 +1576,6 @@ body {
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: repeat;
-  cursor: crosshair;
 }
 
 .left-block-no-click.mobile {
