@@ -1082,7 +1082,7 @@ body {
 }
 
 .library1 {
-  width: 23.5vw;
+  width: 18vw;
 }
 
 .library-poem-holder {
@@ -1239,6 +1239,7 @@ body {
   text-align: left;
   letter-spacing: -0.04vw;
   text-transform: none;
+  cursor: default;
 }
 
 .poem-name {
@@ -1292,6 +1293,12 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-transition: background-color 300ms ease;
+  transition: background-color 300ms ease;
+}
+
+.accordion-toggle:hover {
+  background-color: hsla(0, 0%, 100%, 0.05);
 }
 
 .text-block {
@@ -1321,15 +1328,15 @@ body {
 }
 
 .library2 {
-  width: 22vw;
+  width: 20vw;
 }
 
 .library3 {
-  width: 21vw;
+  width: 18.5vw;
 }
 
 .library4 {
-  width: 20vw;
+  width: 19.5vw;
 }
 
 .all-poems {
@@ -1404,19 +1411,19 @@ body {
 }
 
 .library5 {
-  width: 23.5vw;
+  width: 18vw;
 }
 
 .library6 {
-  width: 22vw;
+  width: 20vw;
 }
 
 .library7 {
-  width: 21vw;
+  width: 18.5vw;
 }
 
 .library8 {
-  width: 20vw;
+  width: 19.5vw;
 }
 
 .new-transition {
